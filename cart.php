@@ -12,98 +12,7 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-          <div id="menu" class="menu">
-              <span></span>
-              <span></span>
-              <span></span>
-          </div>
-          <div class="logo-wrapper">
-              <a href="/index.html">
-                  <img class="logo-img" src="images/ClickHudderFax-name.png" alt="ClickHudderFax-logo">
-              </a>
-          </div>
-          <div class="search-box-wrapper">
-              <form class="search-form" action="search.html" method="get">
-                  <div class="search-categories">
-                      <select class="category-select" name="searchBy">
-                          <option value="">All categories</option>
-                          <option value="">Meat</option>
-                          <option value="">Veg</option>
-                          <option value="">Fish</option>
-                      </select>
-                      <span class="iconify select-arrow" data-icon="ic:round-keyboard-arrow-down" data-inline="false"></span>
-                  </div>
-                  <div class="inp-select-line"></div>
-                  <div class="search-input-wrapper">
-                      <input class="search-inpt" name="q" type="text" placeholder="Search Products, categories...">
-                  </div>
-                  <button class="search-btn" type="submit">
-                      <span class="iconify" data-icon="la:search" data-inline="false"></span>
-                  </button>
-              </form>
-          </div>
-          <div class="cart-account-wrapper">
-              <div class="cart-account-item account-nav-link">
-                  <span class="iconify account" data-icon="line-md:account" data-inline="false"></span>
-                  <span class="cart-icon-title">Hello, Sign in<br>Account & Lists</span>
-                  <span class="iconify down-arrow" data-icon="ant-design:caret-down-outlined" data-inline="false"></span>
-                  <div class="account-nav-links">
-                      <a href="login.html">
-                          <span class="iconify" data-icon="clarity:login-line" data-inline="false"></span>
-                          <span>Login</span>
-                      </a>
-                      <a href="signup.html">
-                          <span class="iconify" data-icon="line-md:account-add" data-inline="false"></span>
-                          <span>Sign up</span>
-                      </a>
-                      <a href="profile.html">
-                          <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
-                          <span>Your Account</span>
-                      </a>
-                      <a href="profile-trader.html">
-                        <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
-                        <span>Trader Account</span>
-                    </a>
-                      <a href="#">
-                          <span class="iconify" data-icon="la:box" data-inline="false"></span>
-                          <span>Orders</span>
-                      </a>
-                      <a href="#">
-                          <span class="iconify" data-icon="bi:suit-heart" data-inline="false"></span>
-                          <span>Wishlist</span>
-                      </a>
-                      <a href="#">
-                          <span class="iconify" data-icon="carbon:logout" data-inline="false"></span>
-                          <span>Logout</span>
-                      </a>
-                  </div>
-              </div>
-              <div class="cart-acc-separ"></div>
-              <a href="cart.html" class="cart-account-item">
-                  <span class="cart-icon-wrapper">
-                      <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
-                      <span class="cart-count">10</span>
-                  </span>
-                  <span class="cart-icon-title">Cart</span>
-              </a>
-          </div>
-          <div class="cart-search-wrapper">
-              <div id="mbl-search" class="cart-account-item">
-                  <span class="iconify account" data-icon="bi:search" data-inline="false"></span>
-              </div>
-              <a href="cart.html" class="cart-account-item  ml-5">
-                  <span class="cart-icon-wrapper">
-                      <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
-                      <span class="cart-count">5</span>
-                  </span>
-              </a>
-          </div>
-      </nav>
-      <div id="overlay"></div>
-      <div id="mbl-search-container" class="mbl-search-container"></div>
-  </header>
+    include "header.php"
     <main>
       <div class="max-width-wrapper">
         <div class="cart-outer-wrapper">
@@ -148,7 +57,7 @@
                       </label>
                       <div class="card-big">
                         <div class="card-img-wrapper">
-                          <a href="product.html">
+                          <a href="product.php">
                             <img
                               class="card-big-img"
                               src="images/placeholder-image.png"
@@ -158,7 +67,7 @@
                         </div>
                         <div class="card-big-body">
                           <div class="card-big-title">
-                            <a href="product.html"> Product Title </a>
+                            <a href="product.php"> Product Title </a>
                             <button class="individual-delete-btn each-delete">
                               <span
                                 class="iconify"
@@ -217,7 +126,7 @@
                       </label>
                       <div class="card-big">
                         <div class="card-img-wrapper">
-                          <a href="product.html">
+                          <a href="product.php">
                             <img
                               class="card-big-img"
                               src="images/placeholder-image.png"
@@ -227,7 +136,7 @@
                         </div>
                         <div class="card-big-body">
                           <div class="card-big-title">
-                            <a href="product.html"> Product Title </a>
+                            <a href="product.php"> Product Title </a>
                             <button class="individual-delete-btn each-delete">
                               <span
                                 class="iconify"
@@ -741,59 +650,11 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="footer-wrapper max-width-wrapper">
-          <div class="footer-row">
-              <div class="footer-col">
-                  <div class="footer-title">STAY IN TOUCH</div>
-                  <div class="footer-links">
-                      <a href="#" class="footer-link">About Us</a>
-                      <a href="#" class="footer-link">Careers</a>
-                  </div>
-              </div>
-              <div class="footer-col">
-                  <div class="footer-title">FOLLOW US</div>
-                  <div class="footer-connect-links">
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:facebook" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:youtube-icon" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:twitter" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span>
-                      </a>
-                  </div>
-              </div>
-              <div class="footer-col">
-                  <div class="footer-title">SUPPORT</div>
-                  <div class="footer-links">
-
-                      <a href="#" class="footer-link">Chat with us</a>
-                      <a href="#" class="footer-link">Help</a>
-                  </div>
-              </div>
-              <div class="footer-col">
-                  <div class="footer-title">QUICK LINKS</div>
-                  <div class="footer-links">
-                      <a href="/profile.html" class="footer-link">Your account</a>
-                      <a href="#" class="footer-link">Advertise your product</a>
-                      <a href="#" class="footer-link">Sell on Market</a>
-                  </div>
-              </div>
-          </div>
-          <div class="footer-copyright">
-              Copyright &copy; 2022 ClickHudderFax
-          </div>
-      </div>
-  </footer>
+    include "footer.php"
 
     <script src="js/header.js"></script>
     <script src="js/cartUtils.js"></script>
-    <!-- <script src="https://www.paypal.com/sdk/js?client-id=Aafb9cx169gRRW0uWl1LFxzcN1tMib3lpw4sqsf62Mr8QNrKhmKITlaNfD4KYyomq5X-ek6QmPpgOtqU&currency=GBP"></script> -->
+    <script src="https://www.paypal.com/sdk/js?client-id=Aafb9cx169gRRW0uWl1LFxzcN1tMib3lpw4sqsf62Mr8QNrKhmKITlaNfD4KYyomq5X-ek6QmPpgOtqU&currency=GBP"></script>
     <script src="js/main-cart.js"></script>
   </body>
 </html>
