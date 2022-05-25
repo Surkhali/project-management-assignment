@@ -19,39 +19,19 @@ include 'header.php';
     <main>
         <div class="max-width-wrapper">
             <div class="main-wrapper">
-                <div class="home-row-wrapper">
-                    <div class="carousel-container">
-                        <div id="first-slider" class="carousel-image-wrapper">
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
-                        </div>
-                    </div>  
-                </div>
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">Ours Patners Traders</div>
+                        <div class="home-row-title">Our Patner Trader ---- GREENGROCERS ----</div>
                     </div>
                     <div class="home-row-content">
-                        <div class="shop-by-images-wrapper shop-img-side-marg">
+                        <div class="shop-by-images-wrapper shop-img-side-marg-greengrocers">
                             <div class="shop-by-images-container">
-                                <a class="shop-by-link" href="/butcher.php">
-                                    <img class="shop-by-img" src="images/butchers.jpg" alt="">
-                                </a>
-                                <a class="shop-by-link" href="/greengrocers.php">
+
+                                <a class="shop-by-link" href="#">
                                     <img class="shop-by-img" src="images/greengrocers.jpg" alt="">
                                 </a>
-                                <a class="shop-by-link" href="/fishmongers.php">
-                                    <img class="shop-by-img" src="images/fishmongers.jpg" alt="">
-                                </a>
-                                <a class="shop-by-link" href="/bakery.php">
-                                    <img class="shop-by-img" src="images/bakery.jpg" alt="">
-                                </a>
-                                <a class="shop-by-link" href="/delicateseen.php">
-                                    <img class="shop-by-img" src="images/delicateseen.jpg" alt="">
-                                </a>
+
                             </div>
                             <div class="shop-by-controls d-none">
                                 <span id="shop-by-prev">
@@ -67,7 +47,7 @@ include 'header.php';
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">Highly Recommended Products</div>
+                        <div class="home-row-title">High Quality Products From Greengrocers</div>
                     </div>
                     <div class="home-row-content">
                         <div class="card-row">

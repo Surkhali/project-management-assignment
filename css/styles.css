@@ -441,6 +441,21 @@ main {
     margin-top: 20px;
     margin-left: -20px;
 }
+.shop-img-side-marg-butcher {
+    margin-left: 500px;
+}
+.shop-img-side-marg-bakery {
+    margin-left: 470px;
+}
+.shop-img-side-marg-delicateseen {
+    margin-left: 490px;
+}
+.shop-img-side-marg-fishmongers {
+    margin-left: 530px;
+}
+.shop-img-side-marg-greengrocers {
+    margin-left: 440px;
+}
 .shop-by-images-container {
     display: flex;
     overflow: hidden;
