@@ -63,21 +63,8 @@ input[type=number] {
     max-width: 1300px;
     margin: auto auto;
     box-sizing: border-box;
+    padding: 80px;
 }
-
-/* .max-width-wrapper-login {
-    margin: 90px 400px;
-} */
-
-/* .max-width-wrapper-signup-customer {
-    margin: 20px 400px;
-} */
-
-/* .max-width-wrapper-customer-profile {
-    margin: 120px 400px;
-} */
-
-
 
 /* Header */
 header{
@@ -95,10 +82,56 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-    padding: 5px 20px;
+    flex-direction: column;
     background: #14A89F;
+    width: 100%;
 }
+
+nav .nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0 20px;
+    width: 100%;
+
+}
+
+.nav-edit{
+    background:lightcoral;
+    width: 100%;
+    border: #000;
+
+    
+}
+
+.nav-home{
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    /* margin: 0 5px; */
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+ a.active,a:hover {
+     background:#34A294;
+     transition: .3s;
+     color: #fff;
+     border-radius: 5px;
+ }
+
 .overlay {
     position: fixed;
     overflow: hidden;
@@ -156,12 +189,14 @@ nav {
 }
 .logo-img {
     width: 100%;
-    width: 50px;
+    width: 30px;
+    margin-left: 10px;
     flex-shrink: 0;
 }
 .search-box-wrapper {
     flex-grow: 1;
     margin: 0 25px;
+    padding: 15px;
 }
 .search-form {
     display: flex;

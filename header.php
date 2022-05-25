@@ -1,6 +1,7 @@
 <header>
     <nav>
-        <div id="menu" class="menu">
+        <div class="nav">
+            <div id="menu" class="menu">
             <span></span>
             <span></span>
             <span></span>
@@ -30,62 +31,73 @@
                 </button>
             </form>
         </div>
-        <div class="cart-account-wrapper">
-            <div class="cart-account-item account-nav-link">
-                <span class="iconify account" data-icon="line-md:account" data-inline="false"></span>
-                <span class="cart-icon-title">Hello, Sign in<br>Account & Lists</span>
-                <span class="iconify down-arrow" data-icon="ant-design:caret-down-outlined" data-inline="false"></span>
-                <div class="account-nav-links">
-                    <a href="login.php">
-                        <span class="iconify" data-icon="clarity:login-line" data-inline="false"></span>
-                        <span>Login</span>
-                    </a>
-                    <a href="signup.php">
-                        <span class="iconify" data-icon="line-md:account-add" data-inline="false"></span>
-                        <span>Sign up</span>
-                    </a>
-                    <a href="profile.php">
-                        <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
-                        <span>Your Account</span>
-                    </a>
-                    <a href="profile-trader.php">
-                      <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
-                      <span>Trader Account</span>
-                  </a>
-                    <a href="#">
-                        <span class="iconify" data-icon="la:box" data-inline="false"></span>
-                        <span>Orders</span>
-                    </a>
-                    <a href="#">
-                        <span class="iconify" data-icon="bi:suit-heart" data-inline="false"></span>
-                        <span>Wishlist</span>
-                    </a>
-                    <a href="#">
-                        <span class="iconify" data-icon="carbon:logout" data-inline="false"></span>
-                        <span>Logout</span>
+                    <div class="cart-account-item account-nav-link">
+                        <span class="iconify account" data-icon="line-md:account" data-inline="false"></span>
+                        <span class="cart-icon-title">Hello, Sign in<br>Account & Lists</span>
+                        <span class="iconify down-arrow" data-icon="ant-design:caret-down-outlined" data-inline="false"></span>
+                        <div class="account-nav-links">
+                            <a href="login.php">
+                                <span class="iconify" data-icon="clarity:login-line" data-inline="false"></span>
+                                <span>Login</span>
+                            </a>
+                            <a href="signup.php">
+                                <span class="iconify" data-icon="line-md:account-add" data-inline="false"></span>
+                                <span>Sign up</span>
+                            </a>
+                            <a href="profile.php">
+                                <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
+                                <span>Your Account</span>
+                            </a>
+                            <a href="profile-trader.php">
+                            <span class="iconify" data-icon="line-md:account" data-inline="false"></span>
+                            <span>Trader Account</span>
+                        </a>
+                            <a href="#">
+                                <span class="iconify" data-icon="la:box" data-inline="false"></span>
+                                <span>Orders</span>
+                            </a>
+                            <a href="#">
+                                <span class="iconify" data-icon="bi:suit-heart" data-inline="false"></span>
+                                <span>Wishlist</span>
+                            </a>
+                            <a href="#">
+                                <span class="iconify" data-icon="carbon:logout" data-inline="false"></span>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+
+                    <div class="cart-acc-separ"></div>
+                    <a href="cart.php" class="cart-account-item">
+                        <span class="cart-icon-wrapper">
+                            <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
+                            <span class="cart-count">10</span>
+                        </span>
+                        <span class="cart-icon-title">Cart</span>
                     </a>
                 </div>
-            </div>
-            <div class="cart-acc-separ"></div>
-            <a href="cart.php" class="cart-account-item">
-                <span class="cart-icon-wrapper">
-                    <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
-                    <span class="cart-count">10</span>
-                </span>
-                <span class="cart-icon-title">Cart</span>
-            </a>
+                <div class="cart-search-wrapper">
+                    <div id="mbl-search" class="cart-account-item">
+                        <span class="iconify account" data-icon="bi:search" data-inline="false"></span>
+                    </div>
+                    <a href="cart.php" class="cart-account-item  ml-5">
+                        <span class="cart-icon-wrapper">
+                            <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
+                            <span class="cart-count">5</span>
+                        </span>
+                    </a>
+                </div>
+               
         </div>
-        <div class="cart-search-wrapper">
-            <div id="mbl-search" class="cart-account-item">
-                <span class="iconify account" data-icon="bi:search" data-inline="false"></span>
-            </div>
-            <a href="cart.php" class="cart-account-item  ml-5">
-                <span class="cart-icon-wrapper">
-                    <span class="iconify" data-icon="bx:bx-basket" data-inline="false"></span>
-                    <span class="cart-count">5</span>
-                </span>
-            </a>
-        </div>
+    
+            <div class="nav-edit">
+                    <ul>
+                        <li><a href="/index.php">Home</a></li>
+                        <li><a href="/all-product.php">Product</a></li>
+                        <li><a href="/about.php">About Us</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="/login.php">Login</a></li>
+                    </ul>
+                </div>
     </nav>
     <div id="overlay"></div>
     <div id="menu-container" class="menu-container">
