@@ -23,7 +23,7 @@ include 'header.php';
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">Ours Patners Traders</div>
+                        <div class="home-row-title">Our Patners Traders</div>
                     </div>
                     <div class="home-row-content">
                         <div class="shop-by-images-wrapper shop-img-side-marg">
@@ -58,7 +58,7 @@ include 'header.php';
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">Highly Recommended Products</div>
+                        <div class="home-row-title">All High Quality Products</div>
                     </div>
                     <div class="home-row-content">
                         <div class="card-row">

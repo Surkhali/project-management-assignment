@@ -50,7 +50,7 @@ include 'header.php';
                                     echo "<i>*Password field must not be empty</i>";}
                                 }?><br>
                                 <div class="note-links-wrapper">
-                                    <a href="#" class="note-link">
+                                    <a href="/forget-password.php" class="note-link">
                                         Forgot password?
                                     </a>
                                 </div>

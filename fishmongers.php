@@ -46,7 +46,7 @@ include 'header.php';
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">High quality Products from fishmongers</div>
+                        <div class="home-row-title">High Quality Products From Fishmongers</div>
                     </div>
                     <div class="home-row-content">
                         <div class="card-row">
