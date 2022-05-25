@@ -12,7 +12,11 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
-include "header.php"
+<?php
+
+include 'init.php';
+include 'header.php';
+?>
     <main>
         <div class="max-width-wrapper">
             <div class="login-outer-wrapper">
@@ -20,26 +24,38 @@ include "header.php"
                     <div class="login-side-banner">
                     </div>
                     <div class="login-container">
-                        <div>
-                            <img src="images/clickhuuderfax-name.png" class="login-logo" alt="">
-                        </div>
                         <div class="form-wrapper">
-                            <form class="login-form" action="#" method="POST" >
+                            <form class="login-form" action="login.php" method="POST" >
                                 <div class="inpt-wrapper">
-                                    <label for="emailId">Email</label>
-                                    <input id="emailId" type="email" name="email" placeholder="Your Email...">
+                                    <label>Login as: </label>
+                                    <select name="txtAccess" id="cars" >
+                                      <option value="customer" <?php if (isset($_POST['btnSubmit'])){if( $_POST['txtAccess'] == 'customer') echo 'selected="selected"'; }?>>Customer</option>
+                                      <option value="trader" <?php if (isset($_POST['btnSubmit'])) {if( $_POST['txtAccess'] == 'trader') echo 'selected="selected"'; }?>>Trader</option>
+                                    </select><br>
                                 </div>
+                                <div class="inpt-wrapper">
+                                    <label for="userId">Username</label>
+                                    <input id="userId" type="text" name="txtUser" placeholder="Your username...">
+                                </div>
+                                <?php if (isset($_POST['btnSubmit'])) {
+                                        if(empty($_POST['txtUser'])){
+                                    echo "<i>*Username must not be empty</i>";}
+                                }?><br>
                                 <div class="inpt-wrapper">
                                     <label for="passwordId">Password</label>
-                                    <input id="passwordId" type="password" name="password" placeholder="Your password...">
+                                    <input id="passwordId" type="password" name="txtPass" placeholder="Your password...">
                                 </div>
+                                <?php if (isset($_POST['btnSubmit'])) {
+                                        if(empty($_POST['txtPass'])){
+                                    echo "<i>*Password field must not be empty</i>";}
+                                }?><br>
                                 <div class="note-links-wrapper">
                                     <a href="#" class="note-link">
                                         Forgot password?
                                     </a>
                                 </div>
                                 <div class="login-btn-wrapper">
-                                    <button class="login-btn" type="submit">Login</button>
+                                    <input type="submit" name="btnSubmit" value="Login" class = "login-btn">
                                 </div>
                             </form>
                             <div class="login-footer">
@@ -51,8 +67,41 @@ include "header.php"
                 </div>
             </div>
         </div>
+        <?php
+//Gather details submitted from the $_POST array and store in local vars
+if(isset($_POST['btnSubmit'])){
+    $user = $_POST['txtUser'];
+$pass = $_POST['txtPass'];
+$access = $_POST['txtAccess'];
+//build query to SELECT records from the users table WHERE
+//the username AND password in the table are equal to those entered.
+if ($access == "customer") {
+
+$sql = "select username, password from customer where username = '$user' and password = '$pass'";
+}
+if ($access == "trader") {
+
+$sql = "select username, password from trader where username = '$user' and password = '$pass'";
+}
+//run query and store result
+$query_login = oci_parse($conn, $sql);
+$result = oci_execute($query_login);
+if ($row = oci_fetch_assoc($query_login)){
+    $_SESSION['user'] = $user;
+    header ('location:./index.php');
+
+}
+else{
+    echo "false";   
+} 
+}
+
+?>
+
     </main>
-include "footer.php"
+<?php
+include 'footer.php';
+?>
 
     <script src="js/header.js"></script>
 </body>

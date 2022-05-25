@@ -12,7 +12,9 @@
   </head>
 
   <body>
-    include "header.php"
+    <?php
+include 'header.php';
+?>
     <main>
       <div class="max-width-wrapper">
         <div class="cart-outer-wrapper">
@@ -650,7 +652,9 @@
         </div>
       </div>
     </main>
-    include "footer.php"
+    <?php
+include 'footer.php';
+?>
 
     <script src="js/header.js"></script>
     <script src="js/cartUtils.js"></script>

@@ -13,7 +13,9 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
-  include "header.php"
+  <?php
+include 'header.php';
+?>
     <main>
         <div class="max-width-wrapper">
             <div class="signup-outer-wrapper">
@@ -100,7 +102,9 @@
             </div>
         </div>
     </main>
-include "footer.php"
+<?php
+include 'footer.php';
+?>
 
     <script src="js/header.js"></script>
     <script src="js/my-drop-uploader.js"></script>
