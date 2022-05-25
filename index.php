@@ -32,26 +32,53 @@ include 'header.php';
     
                 <div class="home-row-wrapper">
                     <div class="home-row-title-wrapper">
-                        <div class="home-row-title">Ours Patners Traders</div>
+                        <div class="home-row-title">Explore Shops</div>
                     </div>
                     <div class="home-row-content">
                         <div class="shop-by-images-wrapper shop-img-side-marg">
                             <div class="shop-by-images-container">
-                                <a class="shop-by-link" href="/butcher.php">
-                                    <img class="shop-by-img" src="images/butchers.jpg" alt="">
-                                </a>
+                                <div class="product-wrap">
+                                    <a class="shop-by-link" href="/butcher.php">
+                                        <img class="shop-by-img" src="images/butchers.jpg" alt="">
+                                    </a>
+                                    <div class="product-info">
+                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                    </div>
+                                </div>
+                                <div class="product-wrap">
                                 <a class="shop-by-link" href="/greengrocers.php">
                                     <img class="shop-by-img" src="images/greengrocers.jpg" alt="">
+                                    <div class="product-info">
+                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                    </div>
                                 </a>
+                                </div>
+                                <div class="product-wrap">
                                 <a class="shop-by-link" href="/fishmongers.php">
                                     <img class="shop-by-img" src="images/fishmongers.jpg" alt="">
+                                    <div class="product-info">
+                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                    </div>
                                 </a>
+                                </div>
+                                <div class="product-wrap">
                                 <a class="shop-by-link" href="/bakery.php">
                                     <img class="shop-by-img" src="images/bakery.jpg" alt="">
+                                    <br>
+                                    <div class="product-info">
+                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                    </div>
                                 </a>
+                                </div>
+                                <div class="product-wrap">
                                 <a class="shop-by-link" href="/delicateseen.php">
                                     <img class="shop-by-img" src="images/delicateseen.jpg" alt="">
+                                    <br>
+                                    <div class="product-info">
+                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                    </div>
                                 </a>
+                                </div>
                             </div>
                             <div class="shop-by-controls d-none">
                                 <span id="shop-by-prev">
