@@ -31,6 +31,7 @@
                 </button>
             </form>
         </div>
+        
                     <div class="cart-account-item account-nav-link">
                         <span class="iconify account" data-icon="line-md:account" data-inline="false"></span>
                         <span class="cart-icon-title">Hello, Sign in<br>Account & Lists</span>
@@ -65,7 +66,7 @@
                                 <span>Logout</span>
                             </a>
                         </div>
-
+                        </div>
                     <div class="cart-acc-separ"></div>
                     <a href="cart.php" class="cart-account-item">
                         <span class="cart-icon-wrapper">
@@ -74,7 +75,7 @@
                         </span>
                         <span class="cart-icon-title">Cart</span>
                     </a>
-                </div>
+
                 <div class="cart-search-wrapper">
                     <div id="mbl-search" class="cart-account-item">
                         <span class="iconify account" data-icon="bi:search" data-inline="false"></span>
