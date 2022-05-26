@@ -65,7 +65,7 @@ include 'header.php';
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/bakery.php">
-                                    <img class="shop-by-img" src="images/bakery.jpg" alt="">
+                                    <img class="shop-by-img" src="images/bakery.png" alt="">
                                 </a>
                                     <br>
                                     <div class="product-info">

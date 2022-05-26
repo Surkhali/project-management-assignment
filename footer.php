@@ -10,20 +10,13 @@
               </div>
               <div class="footer-col">
                   <div class="footer-title">FOLLOW US</div>
-                  <div class="footer-connect-links">
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:facebook" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:youtube-icon" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:twitter" data-inline="false"></span>
-                      </a>
-                      <a href="#" class="footer-connect-link">
-                          <span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span>
-                      </a>
-                  </div>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
               </div>
               <div class="footer-col">
                   <div class="footer-title">SUPPORT</div>
