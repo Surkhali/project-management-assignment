@@ -23,9 +23,9 @@ include 'header.php';
                     <div class="carousel-container">
                         <div id="first-slider" class="carousel-image-wrapper">
                           <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider1.jpg" alt="Image" />
+                          <img src="images/slider2.jpg" alt="Image" />
+                          <img src="images/slider3.jpg" alt="Image" />
+                          <img src="images/slider3.jpg" alt="Image" />
                         </div>
                     </div>  
                 </div>
