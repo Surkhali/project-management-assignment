@@ -22,10 +22,14 @@ include 'header.php';
                 <div class="home-row-wrapper">
                     <div class="carousel-container">
                         <div id="first-slider" class="carousel-image-wrapper">
-                          <img src="images/slider1.jpg" alt="Image" />
-                          <img src="images/slider2.jpg" alt="Image" />
-                          <img src="images/slider3.jpg" alt="Image" />
-                          <img src="images/slider4.jpg" alt="Image" />
+                          <img src="images/1.png" alt="Image" />
+                          <img src="images/2.png" alt="Image" />
+                          <img src="images/3.png" alt="Image" />
+                          <img src="images/4.png" alt="Image" />
+                          <img src="images/5.png" alt="Image" />
+                          <img src="images/6.png" alt="Image" />
+                          <img src="images/7.png" alt="Image" />
+                          <img src="images/8.png" alt="Image" />
                         </div>
                     </div>  
                 </div>
