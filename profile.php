@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href="css/profile.css">
-    <link rel="stylesheet" type="text/css" href="css/max-width-wrapper-customer-profile.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
@@ -17,7 +16,7 @@
 include 'header.php';
 ?>
     <main>
-        <div class="max-width-wrapper">
+        <div class="max-width-wrapper-profile">
             <div class="profile-outer-wrapper">
                 <div class="profile-wrapper">
                    <div class="profile-heading">
