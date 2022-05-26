@@ -43,27 +43,30 @@ include 'header.php';
                             <div class="shop-by-images-container">
                                 <div class="product-wrap">
                                     <a class="shop-by-link" href="/butcher.php">
-                                        <img class="shop-by-img" src="images/butchers.jpg" alt="">
+                                        <img class="shop-by-img" src="images/bakery.png" alt="">
                                     </a>
                                     <div class="product-info">
-                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                        <h2>Bakery</h2>
+                                        <p>A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies, cakes, donuts, pastries, and pies.[1] Some retail bakeries are also categorized as cafés, serving coffee and tea to customers who wish to consume the baked goods on the premises.</p>
                                     </div>
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/greengrocers.php">
-                                    <img class="shop-by-img" src="images/greengrocers.jpg" alt="">
+                                    <img class="shop-by-img" src="images/bakery.png" alt="">
                                 </a>
                                     <div class="product-info">
-                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                        <h2>Fishmonger</h2>
+                                        <p>A fishmonger (historically fishwife for female practitioners) is someone who sells raw fish and seafood. Fishmongers can be wholesalers or retailers and are trained at selecting and purchasing, handling, gutting, boning, filleting, displaying, merchandising and selling their product.</p>
                                     </div>
 
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/fishmongers.php">
-                                    <img class="shop-by-img" src="images/fishmongers.jpg" alt="">
+                                    <img class="shop-by-img" src="images/bakery.png" alt="">
                                 </a>
                                     <div class="product-info">
-                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                        <h2>Delicatessen</h2>
+                                        <p>Traditionally, a delicatessen or "deli" is a retail establishment that sells a selection of fine, exotic, or foreign prepared foods. Delicatessen originated in Germany (original: Delikatessen) during the 18th century and spread to the United States in the mid-19th century.</p>
                                     </div>
 
                                 </div>
@@ -71,20 +74,19 @@ include 'header.php';
                                 <a class="shop-by-link" href="/bakery.php">
                                     <img class="shop-by-img" src="images/bakery.png" alt="">
                                 </a>
-                                    <br>
                                     <div class="product-info">
-                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
+                                        <h2>Greengrocer</h2>
+                                        <p>A greengrocer is a person who owns or operates a shop selling primarily fruit and vegetables. The term may also be used to refer to a shop selling primarily produce. It is used predominantly in the United Kingdom and Australia.</p>
                                     </div>
 
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/delicateseen.php">
-                                    <img class="shop-by-img" src="images/delicateseen.jpg" alt="">
+                                    <img class="shop-by-img" src="images/bakery.png" alt="">
                                 </a>
                                     <div class="product-info">
-                                        Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
-                                    </div>
-                                
+                                        <h2>Butcher</h2>
+                                        <p>A butcher is a person who may slaughter animals, dress their flesh, sell their meat, or participate within any combination of these three tasks.[1] They may prepare standard cuts of meat and poultry for sale in retail or wholesale food establishments.                         
                                 </div>
                             </div>
                             <div class="shop-by-controls d-none">
