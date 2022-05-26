@@ -25,7 +25,7 @@ include 'header.php';
                           <img src="images/slider1.jpg" alt="Image" />
                           <img src="images/slider2.jpg" alt="Image" />
                           <img src="images/slider3.jpg" alt="Image" />
-                          <img src="images/slider3.jpg" alt="Image" />
+                          <img src="images/slider4.jpg" alt="Image" />
                         </div>
                     </div>  
                 </div>
@@ -48,36 +48,39 @@ include 'header.php';
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/greengrocers.php">
                                     <img class="shop-by-img" src="images/greengrocers.jpg" alt="">
+                                </a>
                                     <div class="product-info">
                                         Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
                                     </div>
-                                </a>
+
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/fishmongers.php">
                                     <img class="shop-by-img" src="images/fishmongers.jpg" alt="">
+                                </a>
                                     <div class="product-info">
                                         Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
                                     </div>
-                                </a>
+
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/bakery.php">
                                     <img class="shop-by-img" src="images/bakery.jpg" alt="">
+                                </a>
                                     <br>
                                     <div class="product-info">
                                         Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
                                     </div>
-                                </a>
+
                                 </div>
                                 <div class="product-wrap">
                                 <a class="shop-by-link" href="/delicateseen.php">
                                     <img class="shop-by-img" src="images/delicateseen.jpg" alt="">
-                                    <br>
+                                </a>
                                     <div class="product-info">
                                         Info about the product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at facilis ipsam, eos tempore veritatis! Ex adipisci eaque distinctio ipsam labore ipsa vitae, non perspiciatis dolore nulla dicta consectetur. Quidem.
                                     </div>
-                                </a>
+                                
                                 </div>
                             </div>
                             <div class="shop-by-controls d-none">
